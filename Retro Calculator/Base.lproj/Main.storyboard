@@ -8,6 +8,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Minecraftia.ttf">
+            <string>Minecraftia</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -194,6 +199,12 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2500" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lmA-Sj-Not">
+                                <rect key="frame" x="52" y="50.5" width="216" height="25.5"/>
+                                <fontDescription key="fontDescription" name="Minecraftia" family="Minecraftia" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -204,11 +215,14 @@
                             <constraint firstItem="isF-Ig-OX0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IQB-LA-2cc"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="isF-Ig-OX0" secondAttribute="bottom" id="J7t-Tu-1g6"/>
                             <constraint firstItem="xqx-rH-tsm" firstAttribute="top" secondItem="eCd-ug-LeD" secondAttribute="bottom" constant="5" id="LNI-cp-mpG"/>
+                            <constraint firstItem="lmA-Sj-Not" firstAttribute="leading" secondItem="eCd-ug-LeD" secondAttribute="leading" constant="15" id="OBx-pz-WQl"/>
                             <constraint firstItem="xqx-rH-tsm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RHd-FS-ItR"/>
                             <constraint firstItem="isF-Ig-OX0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="T7d-GQ-wDh"/>
                             <constraint firstItem="dMQ-h3-Vht" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bTW-to-Sqb"/>
                             <constraint firstAttribute="trailing" secondItem="dMQ-h3-Vht" secondAttribute="trailing" id="dvW-0l-9Ou"/>
                             <constraint firstItem="xqx-rH-tsm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="50" id="fTS-TT-LZf"/>
+                            <constraint firstItem="lmA-Sj-Not" firstAttribute="centerY" secondItem="eCd-ug-LeD" secondAttribute="centerY" id="hGd-Yy-jBp"/>
+                            <constraint firstItem="lmA-Sj-Not" firstAttribute="trailing" secondItem="eCd-ug-LeD" secondAttribute="trailing" constant="-15" id="q7F-S1-JyD"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dMQ-h3-Vht" secondAttribute="bottom" id="wqs-0v-nKv"/>
                         </constraints>
                     </view>
